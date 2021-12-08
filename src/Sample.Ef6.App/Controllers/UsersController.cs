@@ -8,7 +8,7 @@ namespace Sample.Ef6.App.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-[Produces("Application/json")]
+[Produces("application/json")]
 public class UsersController : ControllerBase
 {
     public UsersController(ApplicationDbContext db)
